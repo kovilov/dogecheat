@@ -1,0 +1,51 @@
+body {
+    /* background-image: url("https://wallpaper.dog/large/20459081.jpg"); */
+    background-image: url("https://cutewallpaper.org/21/1920x1080-landscape-wallpaper/1920x1080-Minimalist-Landscape-Download-Wallpaper-.jpg");
+    background-size: cover;
+    font-family: Arial;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-transition: all 1s ease;
+            transition: all 1.5s ease;
+}
+
+li a:hover {
+    color: #c2a0df;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color:aliceblue;
+}

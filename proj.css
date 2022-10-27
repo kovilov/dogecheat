@@ -1,0 +1,108 @@
+body {
+    padding-left: 50px;
+    padding-top: 150px;
+    font-family: Arial;
+}
+.raduis {
+    /* background: #f0f0f0; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 200px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.raduis_two {
+    /* background: #f0f0f0; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 115px;
+    right: 650px;
+}
+.raduis_three {
+    /* background: #f0f0f0; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 500px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 115px;
+    right: 650px;
+}
+.raduis_four {
+    /* background: #f0f0f0; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 800px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 115px;
+    right: 650px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px;
+    border-bottom: 2px  solid #e3e3e3;
+    border-top: 2px  solid #e3e3e3;
+    border-right: 2px  solid #e3e3e3;
+    border-left: 2px  solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.doge {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+}
+.doge_two {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+}
+.doge_three {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+}
+.doge_four {
+    position: absolute;
+    top: 110px;
+    right: 65px;
+}
+.doge_five {
+    position: absolute;
+    top: 130px;
+    right: 279px;
+}
+.doge_six {
+    position: absolute;
+    top: 95px;
+    right: 209px;
+}
+a {
+    text-decoration: none;
+    color: rgb(174, 132, 212);
+}

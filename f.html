@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>403 - Forbidden</title>
+    <style>
+        body {
+            padding-top: 150px;
+            padding-left: 300px;
+            font-family: Arial;
+        }
+        button {
+            padding: 10px;
+            background: #e3e3e3;
+            border: unset;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>403 - Доступ запрещён :(</h1>
+    <p>Вы являетесь пользователем с недостаточными правами либо хостинг не поддреживает "PHP"</p>
+    <!-- <p><img src="http://31.media.tumblr.com/tumblr_mc0g63g6LE1rg65seo1_500.gif"></p> -->
+    <p><img src="https://www.gifcen.com/wp-content/uploads/2021/09/tom-and-jerry-gif-13.gif"></p>
+    <p><button id="home">Домой</button></p>
+</body>
+<script>
+    const btnnn = document.getElementById('home');
+
+    btnnn.onclick = function click() {
+        window.location.href = "main.html";
+    }
+</script>
+</html>

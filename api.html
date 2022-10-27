@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="api.css">
+    <title>API - DogeHacks</title>
+</head>
+<body>
+    <h1>DogeHacks - API (Скоро)</h1>
+    <div style="border: 1px solid black; border-radius: 8px;" class="raduis">
+        <p style="padding-bottom: 20px;"><input type="text" readonly="readonly" placeholder="У вас ещё нет API ключа" title="Создайте API ключ в профиле"></p>
+    </div>
+    <div style="border: 1px solid black; border-radius: 8px;" class="raduis_two">
+        <h3>Начало</h3>
+        <p id="first">Введение</p>
+        <p id="second">Метод</p>
+        <h3>Основные варианты</h3>
+        <p id="three">account</p>
+        <p id="four">subscribe</p>
+        <p id="five">all</p>
+        <h3>Скоро</h3>
+    </div>
+</body>
+<script>
+    const first = document.getElementById('first');
+    const second = document.getElementById('second');
+    const three = document.getElementById('three');
+    const four = document.getElementById('four');
+    const five = document.getElementById('five');
+
+    first.onclick = function click() {
+        scrollTo(0, 200);
+    }
+</script>
+</html>
